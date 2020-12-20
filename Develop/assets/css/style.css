@@ -1,3 +1,4 @@
+/* general styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,9 @@
 body {
     background-color: #d9dcd6;
 }
+/*-------------------------------*/
 
+/* styling for header */ 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,6 +42,7 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {
@@ -54,13 +58,11 @@ a {
     background-size: cover;
     background-position: center;
 }
+/*----------------------------------*/
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+
+/* utility classes to postion content*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +71,14 @@ a {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+/*---------------------------*/
+
+/* main content styling */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 p {
@@ -93,6 +103,9 @@ p {
     font-size: 36px;
 }
 
+/*-------------------------*/
+
+/* sidebar styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,7 +132,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*---------------------------*/
 
+/* styling for footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +145,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*----------------------*/
