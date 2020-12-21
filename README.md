@@ -4,3 +4,4 @@ I recieved the html and css code for the horiseon website page and added semanti
 ## Deployed Page
 https://paulkup.github.io/Horiseon-code-refactor/Develop/
 ## Finished Website
+![screenshot of webpage][./horiseon-screen.png]
